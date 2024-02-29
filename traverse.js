@@ -22,4 +22,14 @@ for (var x = 0; x < arr.length; x++) {
         sum += arr[x];
     }
 }
-console.log('result = ' + sum);
+console.log('Odd Number summation= ' + sum);
+
+// Summation Even number
+var sum = 0;
+for (var x = 0; x < arr.length; x++) {
+    if (arr[x] % 2 === 0) {
+        console.log(arr[x]);
+        sum += arr[x];
+    }
+}
+console.log('Ever Number summation= ' + sum);
