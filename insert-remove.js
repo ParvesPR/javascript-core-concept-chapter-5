@@ -9,7 +9,7 @@ arr.push(9);
 // Insert element at the start of the array
 arr.unshift(10)
 // Index position, delete-count and insert new element
-// arr.splice(4, 1, 9, 11);
+arr.splice(4, 1, 9, 11);
 // Delete element insert according to index number
 arr.splice(3, 1);
 arr[3] = 40;
