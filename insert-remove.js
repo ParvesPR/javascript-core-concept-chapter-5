@@ -5,7 +5,9 @@ arr.push(9);
 // Remove the last element
 arr.pop();
 // Remove the first element
-arr.shift()
+// arr.shift()
 // Insert element at the start of the array
 arr.unshift(10)
+// Index position, delete-count and insert new element
+arr.splice(4, 1, 9, 11)
 console.log(arr);
